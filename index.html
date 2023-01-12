@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <title>JST Global</title>
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- splitting css -->
+    <link rel="stylesheet" href="assets/css/splitting.css">
+    <link rel="stylesheet" href="assets/css/splitting-cells.css">
+    <!-- main style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        @media (min-width: 2100px) {
+            .section-pagination {
+                font-size: 3.47vw;
+                line-height: 4.1vw;
+                height: 4.1vw;
+            }
+        }
+
+        /* @media (max-width: 992px) {
+            .section-pagination {
+                bottom: 70px !important;
+            }
+        } */
+    </style>
+</head>
+
+<body class="home-scrollify">
+    <header
+        class="header js-header pl-spacex absolute top-0 left-0 w-full mt-10 z-[999] min4kxlg:mt-[2.78vw] maxdp:pr-spacex maxdp:mt-5">
+        <div class="header-inner js-header-inner flex flex-wrap justify-between items-center">
+            <div
+                class="header-logo relative z-[999] min4kxlg:flex-[0_0_11.6vw] min4kxlg:max-w-[11.6vw] maxdp:flex-[0_0_150px] maxdp:max-w-[150px]">
+                <a href="index.html" class="block">
+                    <img class="js-logo w-full duration-500" src="assets/img/logo.svg" alt="JSTGlobal">
+                </a>
+            </div>
+            <nav class="header-nav js-header-nav bg-white px-spacex maxdp:hidden">
+                <ul class="header-menu flex flex-wrap">
+                    <li><a href="who-we-are.html"
+                            class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize py-[45px] mx-[1.36vw] relative before:absolute before:top-0 before:left-0 before:w-full before:h-[5px] before:bg-blue1 before:invisible before:opacity-0 before:transition-all before:duration-300 hover:before:visible hover:before:opacity-100 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw] min4kxlg:py-[3.125vw] min4kxlg:before:h-[0.35vw]">Who
+                            We
+                            Are</a></li>
+                    <li><a href="what-we-do.html"
+                            class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize py-[45px] mx-[1.36vw] relative before:absolute before:top-0 before:left-0 before:w-full before:h-[5px] before:bg-blue1 before:invisible before:opacity-0 before:transition-all before:duration-300 hover:before:visible hover:before:opacity-100 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw] min4kxlg:py-[3.125vw] min4kxlg:before:h-[0.35vw]">What
+                            We
+                            Do</a></li>
+                    <li><a href="industries-markets.html"
+                            class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize py-[45px] mx-[1.36vw] relative before:absolute before:top-0 before:left-0 before:w-full before:h-[5px] before:bg-blue1 before:invisible before:opacity-0 before:transition-all before:duration-300 hover:before:visible hover:before:opacity-100 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw] min4kxlg:py-[3.125vw] min4kxlg:before:h-[0.35vw]">Industries
+                            &
+                            Markets</a></li>
+                    <li><a href="sustainability.html"
+                            class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize py-[45px] mx-[1.36vw] relative before:absolute before:top-0 before:left-0 before:w-full before:h-[5px] before:bg-blue1 before:invisible before:opacity-0 before:transition-all before:duration-300 hover:before:visible hover:before:opacity-100 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw] min4kxlg:py-[3.125vw] min4kxlg:before:h-[0.35vw]">Sustainability</a>
+                    </li>
+                    <li><a href="#"
+                            class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize py-[45px] mx-[1.36vw] relative before:absolute before:top-0 before:left-0 before:w-full before:h-[5px] before:bg-blue1 before:invisible before:opacity-0 before:transition-all before:duration-300 hover:before:visible hover:before:opacity-100 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw] min4kxlg:py-[3.125vw] min4kxlg:before:h-[0.35vw]">Contact
+                            Us</a></li>
+                </ul>
+            </nav>
+            <div
+                class="menu-bar-btn js-menu-bar-btn w-14 h-14 hidden maxdp:block relative z-[999] min4kxlg:w-[3.89vw] min4kxlg:h-[3.89vw]">
+                <div
+                    class="menu-bar-lines js-menu-bar-lines w-full h-full flex flex-col justify-center items-center cursor-pointer overflow-hidden">
+                    <div
+                        class="line line-top js-line-top w-8 h-[2px] bg-white mb-[6px] last:mb-0 min4kxlg:w-[2.22vw] min4kxlg:h-[0.14vw] min4kxlg:mb-[0.42vw]">
+                    </div>
+                    <div
+                        class="line line-mid js-line-mid w-8 h-[2px] bg-white mb-[6px] last:mb-0 min4kxlg:w-[2.22vw] min4kxlg:h-[0.14vw] min4kxlg:mb-[0.42vw]">
+                    </div>
+                    <div
+                        class="line line-bottom js-line-bottom w-8 h-[2px] bg-white mb-[6px] last:mb-0 min4kxlg:w-[2.22vw] min4kxlg:h-[0.14vw] min4kxlg:mb-[0.42vw]">
+                    </div>
+                </div>
+            </div>
+            <div
+                class="mobile-menu-area js-mobile-menu-area fixed inset-0 bg-white flex justify-center items-center invisible opacity-0">
+                <nav class="mobile-nav">
+                    <ul class="mobile-menu flex flex-col justify-center items-center">
+                        <li><a href="who-we-are.html"
+                                class="block font-primary font-medium text-black2 capitalize py-[20px] min4kxlg:!text-[2.78vw] min4kxlg:!leading-[2.78vw] min4kxlg:py-[1.39vw]">Who
+                                We
+                                Are</a></li>
+                        <li><a href="what-we-do.html"
+                                class="block font-primary font-medium text-black2 capitalize py-[20px] min4kxlg:!text-[2.78vw] min4kxlg:!leading-[2.78vw] min4kxlg:py-[1.39vw]">What
+                                We
+                                Do</a></li>
+                        <li><a href="industries-markets.html"
+                                class="block font-primary font-medium text-black2 capitalize py-[20px] min4kxlg:!text-[2.78vw] min4kxlg:!leading-[2.78vw] min4kxlg:py-[1.39vw]">Industries
+                                &
+                                Markets</a></li>
+                        <li><a href="sustainability.html"
+                                class="block font-primary font-medium text-black2 capitalize py-[20px] min4kxlg:!text-[2.78vw] min4kxlg:!leading-[2.78vw] min4kxlg:py-[1.39vw]">Sustainability</a>
+                        </li>
+                        <li><a href="#"
+                                class="block font-primary font-medium text-black2 capitalize py-[20px] min4kxlg:!text-[2.78vw] min4kxlg:!leading-[2.78vw] min4kxlg:py-[1.39vw]">Contact
+                                Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- start banner -->
+    <section
+        class="js-scrollify js-section hero-banner home-banner px-spacex  flex items-center relative overflow-hidden active ">
+        <!-- pt-[293px] pb-[213px] -->
+        <div class="min4kxlg:max-w-[2100px] min4kxlg:mx-auto w-full app-height flex items-center">
+            <div
+                class="section-bg js-section-bg bg-home-banner bg-no-repeat bg-cover bg-center absolute left-0 w-full app-height">
+
+            </div>
+            <article
+                class="section-content js-section-content js-banner-content bnr-article max4klg:max-w-[1023px] relative opacity-0 maxdp:max-w-full maxdp:mx-auto maxdp:flex maxdp:flex-col maxdp:justify-center maxdp:items-center">
+                <h1
+                    class="section-title js-section-title font-primary font-normal text-white mb-10 overflow-hidden relative min4kxlg:text-[4.2vw] min4kxlg:leading-[5vw] min4kxlg:mb-[2.78vw] maxdp:text-center">
+                    <span class="block">We process and
+                        trade
+                        animal fat <br class="max4klg:hidden"> and other oil byproducts.</span>
+                </h1>
+                <a href="#"
+                    class="btn js-btn group inline-flex px-btnspacex py-5 bg-blue1 font-primary font-medium text-[16px] leading-[19px] text-white rounded-[50px] relative overflow-hidden after:content-[attr(data-hover)] after:absolute after:top-full after:left-1/2 after:-translate-x-1/2 after:w-max after:transition-[top] after:duration-150 after:ease-linear hover:after:top-1/2 hover:after:-translate-y-1/2 min4kxlg:px-[3.47vw] min4kxlg:py-[1.39vw] min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw] min4kxlg:rounded-[3.47vw]"
+                    data-hover="Learn
+                            More">
+                    <span
+                        class="inline-block transition-transform duration-150 ease-linear group-hover:-translate-y-[300%]">Learn
+                        More</span>
+                </a>
+            </article>
+        </div>
+    </section>
+    <!-- end banner -->
+
+    <!-- start who we are -->
+    <section class="js-scrollify js-section about-us px-spacex  relative overflow-hidden app-height">
+        <!-- pt-[293px] pb-[213px] -->
+        <div class="min4kxlg:max-w-[2100px] min4kxlg:mx-auto">
+            <div
+                class="section-bg js-section-bg bg-about-us bg-no-repeat bg-cover bg-center absolute left-0 w-full app-height">
+            </div>
+            <article
+                class="section-content js-section-content pt-[150px] pb-[69px] flex flex-col place-content-between  relative min4kxlg:pt-[10.42vw] min4kxlg:pb-[4.79vw] maxdp:justify-center maxdp:items-center maxdp:place-content-center maxdp:p-0 app-height">
+                <h1
+                    class="section-title js-section-title font-primary font-normal text-white mb-10 maxdp:mb-5 overflow-hidden relative min4kxlg:text-[4.86vw] min4kxlg:leading-[5.69vw] min4kxlg:mb-[2.78vw] maxmd:text-center">
+                    <span class="block">Who We Are</span>
+                </h1>
+                <div class="section-link js-section-link flex">
+                    <a href="who-we-are.html"
+                        class="btn btn-about group font-primary font-normal text-[18px] leading-[21px] text-white flex items-center relative min4kxlg:text-[1.25vw] min4kxlg:leading-[1.46vw]">
+                        <div class="btn-text mr-[25px] duration-300 group-hover:opacity-60 min4kxlg:mr-[1.74vw]">
+                            Learn
+                            more
+                            about us</div>
+                        <div
+                            class="w-[60px] h-[60px] bg-white rounded-full flex justify-end overflow-hidden min4kxlg:w-[4.167vw] min4kxlg:h-[4.167vw] maxmd:w-[50px] maxmd:h-[50px]">
+                            <span
+                                class="arrow second flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow second">
+                            </span>
+                            <span
+                                class="arrow first flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow first">
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="section-pagination flex absolute bottom-[58px] right-0 font-primary font-normal text-white overflow-hidden min4kxlg:bottom-[4.03vw] maxdp:bottom-spacex">
+                    <div class="dynamic-pagin-number js-dynamic-pagin-number">
+                        <p class="js-sec-prev section-pagination font-primary font-normal text-white "></p>
+                        <p class="js-sec-next section-pagination font-primary font-normal text-white "></p>
+                    </div>
+                    <span class="font-primary section-pagination font-normal text-white "> / </span>
+                    <div
+                        class="total-pagin-number js-total-pagin-number opacity-60 section-pagination font-primary font-normal text-white ">
+                        <span class="block"></span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- end who we are -->
+
+    <!-- start what we do -->
+    <section class="js-scrollify js-section what-we-do px-spacex relative overflow-hidden app-height">
+        <!-- pt-[293px] pb-[213px] -->
+        <div class="min4kxlg:max-w-[2100px] min4kxlg:mx-auto">
+            <div
+                class="section-bg js-section-bg bg-what-we-do bg-no-repeat bg-cover bg-center absolute left-0 w-full app-height">
+
+            </div>
+            <article
+                class="section-content js-section-content pt-[150px] pb-[69px] flex flex-col place-content-between  relative min4kxlg:pt-[10.42vw] min4kxlg:pb-[4.79vw] maxdp:justify-center maxdp:items-center maxdp:place-content-center maxdp:p-0 app-height">
+                <h1
+                    class="section-title js-section-title font-primary font-normal text-white mb-10 maxdp:mb-5 overflow-hidden relative min4kxlg:text-[4.86vw] min4kxlg:leading-[5.69vw] min4kxlg:mb-[2.78vw] maxmd:text-center">
+                    <span class="block">What We Do</span>
+                </h1>
+                <div class="section-link js-section-link flex">
+                    <a href="what-we-do.html"
+                        class="btn btn-about group font-primary font-normal text-[18px] leading-[21px] text-white flex items-center relative min4kxlg:text-[1.25vw] min4kxlg:leading-[1.46vw]">
+                        <div class="btn-text mr-[25px] duration-300 group-hover:opacity-60 min4kxlg:mr-[1.74vw]">Learn
+                            more
+                        </div>
+                        <div
+                            class="w-[60px] h-[60px] bg-white rounded-full flex justify-end overflow-hidden min4kxlg:w-[4.167vw] min4kxlg:h-[4.167vw] maxmd:w-[50px] maxmd:h-[50px]">
+                            <span
+                                class="arrow second flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow second">
+                            </span>
+                            <span
+                                class="arrow first flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow first">
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="section-pagination flex absolute bottom-[58px] right-0 font-primary font-normal text-white overflow-hidden min4kxlg:bottom-[4.03vw] maxdp:bottom-spacex">
+                    <div class="dynamic-pagin-number js-dynamic-pagin-number">
+                        <p class="js-sec-prev section-pagination font-primary font-normal text-white "></p>
+                        <p class="js-sec-next section-pagination font-primary font-normal text-white "></p>
+                    </div>
+                    <span class="font-primary section-pagination font-normal text-white "> / </span>
+                    <div
+                        class="total-pagin-number js-total-pagin-number opacity-60 section-pagination font-primary font-normal text-white ">
+                        <span class="block"></span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- end what we do -->
+
+    <!-- start industries -->
+    <section class="js-scrollify js-section industries px-spacex  relative overflow-hidden app-height">
+        <!-- pt-[293px] pb-[213px] -->
+        <div class="min4kxlg:max-w-[2100px] min4kxlg:mx-auto">
+            <div
+                class="section-bg js-section-bg bg-ind-mar bg-no-repeat bg-cover bg-center absolute left-0 w-full app-height">
+
+            </div>
+            <article
+                class="section-content js-section-content pt-[150px] pb-[69px] flex flex-col place-content-between  relative min4kxlg:pt-[10.42vw] min4kxlg:pb-[4.79vw] maxdp:justify-center maxdp:items-center maxdp:place-content-center maxdp:p-0 app-height">
+                <h1
+                    class="section-title js-section-title font-primary font-normal text-white mb-10 maxdp:mb-5 overflow-hidden relative min4kxlg:text-[4.86vw] min4kxlg:leading-[5.69vw] min4kxlg:mb-[2.78vw] maxmd:text-center">
+                    <span class="block">Industries & Markets</span>
+                </h1>
+                <div class="section-link js-section-link flex">
+                    <a href="industries-markets.html"
+                        class="btn btn-about group font-primary font-normal text-[18px] leading-[21px] text-white flex items-center relative min4kxlg:text-[1.25vw] min4kxlg:leading-[1.46vw]">
+                        <div class="btn-text mr-[25px] duration-300 group-hover:opacity-60 min4kxlg:mr-[1.74vw]">See how
+                            we
+                            can he help</div>
+                        <div
+                            class="w-[60px] h-[60px] bg-white rounded-full flex justify-end overflow-hidden min4kxlg:w-[4.167vw] min4kxlg:h-[4.167vw] maxmd:w-[50px] maxmd:h-[50px]">
+                            <span
+                                class="arrow second flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow second">
+                            </span>
+                            <span
+                                class="arrow first flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow first">
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="section-pagination flex absolute bottom-[58px] right-0 font-primary font-normal text-white overflow-hidden min4kxlg:bottom-[4.03vw] maxdp:bottom-spacex">
+                    <div class="dynamic-pagin-number js-dynamic-pagin-number">
+                        <p class="js-sec-prev section-pagination font-primary font-normal text-white "></p>
+                        <p class="js-sec-next section-pagination font-primary font-normal text-white "></p>
+                    </div>
+                    <span class="font-primary section-pagination font-normal text-white "> / </span>
+                    <div
+                        class="total-pagin-number js-total-pagin-number opacity-60 section-pagination font-primary font-normal text-white ">
+                        <span class="block"></span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- end industries -->
+
+    <!-- start sustainability -->
+    <section class="js-scrollify js-section sustainability px-spacex  relative overflow-hidden app-height">
+        <!-- pt-[293px] pb-[213px] -->
+        <div class="min4kxlg:max-w-[2100px] min4kxlg:mx-auto">
+            <div
+                class="section-bg js-section-bg bg-sustainability bg-no-repeat bg-cover bg-center absolute left-0 w-full app-height">
+
+            </div>
+            <article
+                class="section-content js-section-content pt-[150px] pb-[69px] flex flex-col place-content-between  relative min4kxlg:pt-[10.42vw] min4kxlg:pb-[4.79vw] maxdp:justify-center maxdp:items-center maxdp:place-content-center maxdp:p-0 app-height">
+                <h1
+                    class="section-title js-section-title font-primary font-normal text-white mb-10 maxdp:mb-5 overflow-hidden relative min4kxlg:text-[4.86vw] min4kxlg:leading-[5.69vw] min4kxlg:mb-[2.78vw] maxmd:text-center">
+                    <span class="block">Sustainability</span>
+                </h1>
+                <div class="section-link js-section-link flex">
+                    <a href="sustainability.html"
+                        class="btn btn-about group font-primary font-normal text-[18px] leading-[21px] text-white flex items-center relative min4kxlg:text-[1.25vw] min4kxlg:leading-[1.46vw]">
+                        <div class="btn-text mr-[25px] duration-300 group-hover:opacity-60 min4kxlg:mr-[1.74vw]">Read
+                            about
+                            our efforts</div>
+                        <div
+                            class="w-[60px] h-[60px] bg-white rounded-full flex justify-end overflow-hidden min4kxlg:w-[4.167vw] min4kxlg:h-[4.167vw] maxmd:w-[50px] maxmd:h-[50px]">
+                            <span
+                                class="arrow second flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow second">
+                            </span>
+                            <span
+                                class="arrow first flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow first">
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="section-pagination flex absolute bottom-[58px] right-0 font-primary font-normal text-white overflow-hidden min4kxlg:bottom-[4.03vw] maxdp:bottom-spacex">
+                    <div class="dynamic-pagin-number js-dynamic-pagin-number">
+                        <p class="js-sec-prev section-pagination font-primary font-normal text-white "></p>
+                        <p class="js-sec-next section-pagination font-primary font-normal text-white "></p>
+                    </div>
+                    <span class="font-primary section-pagination font-normal text-white "> / </span>
+                    <div
+                        class="total-pagin-number js-total-pagin-number opacity-60 section-pagination font-primary font-normal text-white ">
+                        <span class="block"></span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- end sustainability -->
+
+    <!-- start careers -->
+    <section class="js-scrollify js-section careers px-spacex  relative overflow-hidden app-height">
+        <!-- pt-[293px] pb-[213px] -->
+        <div class="min4kxlg:max-w-[2100px] min4kxlg:mx-auto">
+            <div
+                class="section-bg js-section-bg bg-careers bg-no-repeat bg-cover bg-center absolute left-0 w-full app-height">
+
+            </div>
+            <article
+                class="section-content js-section-content pt-[150px] pb-[69px] flex flex-col place-content-between  relative min4kxlg:pt-[10.42vw] min4kxlg:pb-[4.79vw] maxdp:justify-center maxdp:items-center maxdp:place-content-center maxdp:p-0 app-height">
+                <h1
+                    class="section-title js-section-title font-primary font-normal text-white mb-10 maxdp:mb-5 overflow-hidden relative min4kxlg:text-[4.86vw] min4kxlg:leading-[5.69vw] min4kxlg:mb-[2.78vw] maxmd:text-center">
+                    <span class="block">Careers</span>
+                </h1>
+                <div class="section-link js-section-link flex">
+                    <a href="#"
+                        class="btn btn-about group font-primary font-normal text-[18px] leading-[21px] text-white flex items-center relative min4kxlg:text-[1.25vw] min4kxlg:leading-[1.46vw]">
+                        <div class="btn-text mr-[25px] duration-300 group-hover:opacity-60 min4kxlg:mr-[1.74vw]">View
+                            all
+                            opportunities</div>
+                        <div
+                            class="w-[60px] h-[60px] bg-white rounded-full flex justify-end overflow-hidden min4kxlg:w-[4.167vw] min4kxlg:h-[4.167vw] maxmd:w-[50px] maxmd:h-[50px]">
+                            <span
+                                class="arrow second flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow second">
+                            </span>
+                            <span
+                                class="arrow first flex-[0_0_100%] max-w-full h-full flex justify-center items-center duration-300 group-hover:translate-x-full">
+                                <img class="min4kxlg:w-[1.53vw] w-[36%]" src="assets/img/right-arrow.svg"
+                                    alt="Right Arrow" loading="lazy" class="arrow first">
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="section-pagination flex absolute bottom-[58px] right-0 font-primary font-normal text-white overflow-hidden min4kxlg:bottom-[4.03vw] maxdp:bottom-spacex">
+                    <div class="dynamic-pagin-number js-dynamic-pagin-number">
+                        <p class="js-sec-prev section-pagination font-primary font-normal text-white "></p>
+                        <p class="js-sec-next section-pagination font-primary font-normal text-white "></p>
+                    </div>
+                    <span class="font-primary section-pagination font-normal text-white "> / </span>
+                    <div
+                        class="total-pagin-number js-total-pagin-number opacity-60 section-pagination font-primary font-normal text-white ">
+                        <span class="block"></span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- end careers -->
+
+    <!-- start footer -->
+    <footer class="footer js-no-scrollify pt-[70px] px-spacex min4kxlg:pt-[4.86vw]">
+        <div
+            class="footer-top flex flex-wrap justify-between items-center border-b border-black py-[50px] min4kxlg:border-b-[0.07vw] min4kxlg:py-[3.47vw] maxlg:pt-0 maxsm:flex-col maxsm:gap-y-5">
+            <div class="footer-top-left maxsm:max-w-full">
+                <div class="footer-top-tel">
+                    <a href="tel:+(713) 926-8386"
+                        class="inline-block font-primary font-normal text-black2 duration-300 hover:opacity-60 min4kxlg:!text-[3.34vw] min4kxlg:!leading-[3.47vw]">(713)
+                        926-8386</a>
+                </div>
+            </div>
+            <div class="footer-top-right maxsm:max-w-full">
+                <div class="footer-top-email">
+                    <a href="mailto:contact@jstg.com"
+                        class="inline-block font-primary font-normal text-black2 duration-300 hover:opacity-60 min4kxlg:!text-[3.34vw] min4kxlg:!leading-[3.47vw]">contact@jstg.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-btm py-[43px] min4kxlg:py-[3vw]">
+            <div class="footer-btm-inner flex flex-wrap justify-between items-center maxmd:justify-center maxmd:gap-6">
+                <div class="footer-logo min4kxlg:flex-[0_0_11.6vw] min4kxlg:max-w-[11.6vw]">
+                    <a href="index.html" class="block">
+                        <img class="w-full" src="assets/img/color-logo.svg" alt="JSTGlobal">
+                    </a>
+                </div>
+                <nav class="footer-nav">
+                    <ul
+                        class="footer-menu flex flex-wrap -mx-[1.36vw] maxmd:justify-center maxmd:gap-y-4 maxsm:gap-x-4">
+                        <li class="px-[1.36vw]"><a href="who-we-are.html"
+                                class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize duration-300 hover:opacity-60 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw]">Who
+                                We
+                                Are</a></li>
+                        <li class="px-[1.36vw]"><a href="what-we-do.html"
+                                class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize duration-300 hover:opacity-60 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw]">What
+                                We
+                                Do</a></li>
+                        <li class="px-[1.36vw]"><a href="industries-markets.html"
+                                class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize duration-300 hover:opacity-60 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw]">Industries
+                                &
+                                Markets</a></li>
+                        <li class="px-[1.36vw]"><a href="sustainability.html"
+                                class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize duration-300 hover:opacity-60 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw]">Sustainability</a>
+                        </li>
+                        <li class="px-[1.36vw]"><a href="#"
+                                class="block font-primary font-medium text-[16px] leading-[19px] text-black capitalize duration-300 hover:opacity-60 min4kxlg:text-[1.11vw] min4kxlg:leading-[1.32vw]">Contact
+                                Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- jwuery easing -->
+    <script src="assets/js/jquery.easing.js"></script>
+    <!-- aos -->
+    <script src="assets/js/aos.js"></script>
+    <!-- gsap -->
+    <script src="assets/js/gsap.js"></script>
+    <!-- split text -->
+    <script src="assets/js/splitting.min.js"></script>
+    <!-- scrollify -->
+    <script src="assets/js/scrollify.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+
+            /*======================================
+                parallax bg & text animation
+            ======================================*/
+            const parallaxAnim = () => {
+                var rect = $('.js-section.active')[0].getBoundingClientRect();
+                var mouse = { x: 0, y: 0, moved: false };
+
+                $(".js-section.active").mousemove(function (e) {
+                    mouse.moved = true;
+                    mouse.x = e.clientX - rect.left;
+                    mouse.y = e.clientY - rect.top;
+                });
+
+                // Ticker event will be called on every frame
+                gsap.ticker.add(function () {
+                    if (mouse.moved) {
+                        parallaxIt(".js-section-bg", -10);
+                        parallaxIt(".js-section-content", 8);
+                    }
+                    mouse.moved = false;
+                });
+
+                function parallaxIt(target, movement) {
+                    gsap.to(target, 1, {
+                        x: (mouse.x - rect.width / 2) / rect.width * movement,
+                        y: (mouse.y - rect.height / 2) / rect.height * movement,
+                        ease: 'power4.out'
+                    });
+                }
+
+                $(window).on('resize scroll', function () {
+                    if ($('.js-section.active').length) {
+                        rect = $('.js-section.active')[0].getBoundingClientRect();
+                    } else {
+                        return false;
+                    }
+                });
+            }
+            /*======================================
+                    revealtext animation
+            ======================================*/
+            const revealSpltTextAnim = (thisElm) => {
+                let revealText = document.querySelectorAll(thisElm);
+                let results = Splitting({ target: thisElm, by: "lines" });
+
+                results.forEach((splitResult) => {
+                    const wrappedLines = splitResult.lines.map(
+                        (wordsArr) => `
+                        <span class="mask block overflow-hidden">
+                            <span class="block words">
+                                ${wordsArr.map(
+                            (word) => `${word.outerHTML}<span class="whitespace"> </span>`
+                        )
+                                .join("")}
+                            </span>
+                        </span>`
+                    )
+                        .join("");
+                    splitResult.el.innerHTML = wrappedLines;
+                });
+
+                let revealLines = revealText.forEach((element) => {
+                    const lines = element.querySelectorAll(".mask .words");
+
+                    let tl = gsap.timeline();
+                    tl.set(revealText, { autoAlpha: 1 });
+                    tl.from(lines, 0.5, {
+                        yPercent: 100,
+                        ease: Power4.out,
+                        delay: 0.5
+                    });
+                });
+            }
+
+            /*======================================
+                    image zoom out animation js
+            ======================================*/
+            const imgZoomOutAnim = (thisElm) => {
+                gsap.fromTo(thisElm, 2, { scale: 1.3 }, { scale: 1.1, ease: 'power4.out' });
+            }
+
+            /*======================================
+                    fadeInUp text animation
+            ======================================*/
+            const fadeInUpAnim = (thisElm, duration, fromYoffset, toDelay) => {
+                gsap.fromTo(thisElm, duration, { autoAlpha: 0, y: fromYoffset }, { autoAlpha: 1, y: 0, delay: toDelay });
+            }
+
+            /*======================================
+                        pagination js
+            ======================================*/
+            // total number
+            let totalSection = $('.js-section').length;
+            if ($('.js-total-pagin-number').length) {
+                $('.js-total-pagin-number').find('span').html(`
+                ${totalSection < 10 ? `0${totalSection}` : totalSection} 
+            `);
+            }
+
+            // individual section & pagination number
+            $('.js-section').each(function (index, elm) {
+                // section number
+                $(elm).attr('data-section-number', `${index < 10 ? `0${index + 1}` : index + 1}`);
+                // pagination number
+                let sectionNumber = Number($(elm).attr('data-section-number'));
+                $(elm).find('.js-sec-prev').html(`${sectionNumber < 10 ? `0${sectionNumber - 1}` : sectionNumber - 1}`);
+                $(elm).find('.js-sec-next').html(`${sectionNumber < 10 ? `0${sectionNumber}` : sectionNumber}`);
+            });
+
+            // pagination number animation
+            const paginationAnim = (thisElm, duration, fromYoffset, toYoffset, animDelay) => {
+                const tl = gsap.timeline();
+
+                tl.fromTo(thisElm, duration,
+                    {
+                        y: fromYoffset,
+                        ease: "power4.out",
+                        // delay: animDelay
+                    },
+                    {
+                        y: toYoffset,
+                        ease: "power4.out",
+                        delay: animDelay
+                    }
+                );
+            }
+            let height = Math.round($('.js-dynamic-pagin-number').height());
+
+            // befroe init scrollify
+            parallaxAnim();
+            revealSpltTextAnim('.js-section .js-section-title span');
+            // init scrollify
+            $.scrollify({
+                section: ".js-scrollify",
+                scrollbars: false,
+                interstitialSection: ".js-no-scrollify",
+                setHeights: false,
+                // overflowScroll: true,
+                // updateHash: true,
+                // easing: jQuery.easing.swing,
+                // easing: 'easeOutSine',
+                // easing: 'easeOutExpo',
+                // scrollSpeed: 950,
+                before: function (index, sections) {
+                    // add active class on current section
+                    $('.js-section').removeClass('active');
+                    let current = $.scrollify.current();
+                    current.addClass('active');
+                    // setTimeout(function () {
+                    //     current.addClass('active');
+                    // }, 100);
+                    if ($('.js-section.active').length) {
+                        // mousemove parallax bg & text
+                        parallaxAnim();
+                        // current active section animation
+                        // if ($('.js-section-bg').length) {
+                        //     imgZoomOutAnim('.js-section.active .js-section-bg')
+                        // }
+
+                        // revealTextAnim('.js-section.active .js-section-title span');
+                        if ($('.js-section-title span').length) {
+                            $('.js-section.active .js-section-title span').addClass('section-revealtext-anim');
+                            revealSpltTextAnim('.js-section.active .js-section-title span');
+                        }
+
+                        if ($('.js-section-desc')) {
+                            // fadeInUpAnim('.js-section.active .js-section-desc', 0.8, 20, 1.1);
+                            fadeInUpAnim('.js-section.active .js-section-desc', 0.8, 20, 1.3);
+                        }
+
+                        if ($('.js-btn').length) {
+                            // fadeInUpAnim('.js-section.active .js-btn', 0.8, 20, 0.8);
+                            fadeInUpAnim('.js-section.active .js-btn', 0.8, 20, 1.3);
+                        }
+
+                        // fadeInUpAnim(thisElm, duration, fromYoffset, toDelay)
+                        // if ($('.js-line').length) {
+                        //     // fadeInUpAnim('.js-section.active .js-line', 0.8, 20, 0.8);
+                        //     fadeInUpAnim('.js-section.active .js-line', 0.8, 20, 1.3);
+                        // }
+
+                        if ($('.js-section-link').length) {
+                            // fadeInUpAnim('.js-section.active .js-section-link', 0.8, 20, 1);
+                            fadeInUpAnim('.js-section.active .js-section-link', 0.8, 20, 1.3);
+                        }
+
+                        // let height = Math.round($('.js-dynamic-pagin-number').height());
+                        // paginationAnim(thisElm, duration, fromYoffset, toYoffset, animDelay)
+                        // if ($('.js-sec-prev').length) {
+                        //     paginationAnim('.js-section.active .js-sec-prev', 0.6, 0, height, 1.3);
+                        // } if ($('.js-sec-next').length) {
+                        //     paginationAnim('.js-section.active .js-sec-next', 0.6, 0, -height, 1.3);
+                        // }
+                        if ($('.js-sec-prev').length) {
+                            paginationAnim('.js-section.active .js-sec-prev', 0.8, 0, height, 0.8);
+                        } if ($('.js-sec-next').length) {
+                            paginationAnim('.js-section.active .js-sec-next', 0.8, 0, -height, 0.8);
+                        }
+
+
+                    }
+                },
+                afterResize: function () {
+                    if ($('.js-section').length) {
+                        height = Math.round($('.js-dynamic-pagin-number').height());
+                        $('.js-section.active .js-sec-prev').css({
+                            transform: `translate(0, ${height}px)`
+                        });
+                        $('.js-section.active .js-sec-next').css({
+                            transform: `translate(0, -${height}px)`
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
