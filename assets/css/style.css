@@ -531,6 +531,15 @@ video {
 @media (max-width:768px) {
     :root {
         --space-x: 15px;
+    }
+
+    .single-member {
+        align-items: inherit !important
+    }
+}
+
+@media (max-width:992px) {
+    :root {
         --app-height: 100%;
     }
 
@@ -546,10 +555,6 @@ video {
 
     .app-height {
         height: var(--app-height) !important;
-    }
-
-    .single-member {
-        align-items: inherit !important
     }
 }
 
