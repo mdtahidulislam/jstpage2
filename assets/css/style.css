@@ -292,10 +292,6 @@ body {
     height: var(--app-height);
 }
 
-.app-height {
-    height: var(--app-height);
-}
-
 .h-screen {
     height: 100vh;
 }
@@ -546,6 +542,10 @@ body {
     :root {
         --space-x: 15px;
         --app-height: 100%;
+    }
+
+    .app-height {
+        height: var(--app-height);
     }
 
     .single-member {
