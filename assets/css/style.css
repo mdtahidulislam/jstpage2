@@ -553,7 +553,9 @@ video {
         height: var(--app-height);
     }
 
-    .app-height {
+    .js-section,
+    .section-bg,
+    .section-content {
         height: var(--app-height) !important;
     }
 }
