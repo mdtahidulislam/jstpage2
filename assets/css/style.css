@@ -282,16 +282,6 @@ video {
     /* --app-height: 100%; */
 }
 
-html,
-body {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    height: var(--app-height);
-}
-
 .h-screen {
     height: 100vh;
 }
@@ -542,6 +532,16 @@ body {
     :root {
         --space-x: 15px;
         --app-height: 100%;
+    }
+
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        height: var(--app-height);
     }
 
     .app-height {
