@@ -544,7 +544,8 @@ body {
 
 @media (max-width:768px) {
     :root {
-        --space-x: 15px
+        --space-x: 15px;
+        --app-height: 100%;
     }
 
     .single-member {
