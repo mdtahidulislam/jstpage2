@@ -279,7 +279,7 @@ video {
     --black-3: #898989;
     --space-x: 4.167vw;
     --btn-space-x: 50px;
-    --app-height: 100%;
+    /* --app-height: 100%; */
 }
 
 html,
