@@ -545,7 +545,7 @@ body {
     }
 
     .app-height {
-        height: var(--app-height);
+        height: var(--app-height) !important;
     }
 
     .single-member {
