@@ -177,6 +177,8 @@
             }
             window.addEventListener('resize', appHeight)
             appHeight();
+        } else {
+            doc.style.setProperty('--app-height', `auto`);
         }
 
 
