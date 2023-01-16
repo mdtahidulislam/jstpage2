@@ -282,6 +282,11 @@ video {
     /* --app-height: 100%; */
 }
 
+body,
+.js-scrollify {
+    -webkit-overflow-scrolling: touch;
+}
+
 .h-screen {
     height: 100vh;
 }
@@ -553,7 +558,7 @@ video {
         height: var(--app-height);
     }
 
-    .js-section,
+    .js-scrollify,
     .section-bg,
     .section-content {
         height: var(--app-height) !important;
